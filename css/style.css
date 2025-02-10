@@ -1,0 +1,17 @@
+/* COMMON */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+}
+
+h1 {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+}
