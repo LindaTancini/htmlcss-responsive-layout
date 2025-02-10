@@ -19,7 +19,20 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .box-social {
+    padding: 10px 60px;
+    border-radius: 20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .social p {
+    display: inline;
+    font-weight: bold;
+  }
+
+  .box-social {
+    display: flex;
+  }
 }
