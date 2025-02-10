@@ -32,7 +32,7 @@ main {
   margin-bottom: 10px;
 }
 
-h2 {
+.info h2 {
   color: #4e3969;
   margin-bottom: 10px;
 }
@@ -118,9 +118,31 @@ h1 {
   color: #e62222;
 }
 
+/* SECTION PUBBLICITA */
+
 .advertising {
   width: 100%;
   display: block;
   margin-top: 30px;
   display: none;
+}
+
+/* SECTION PRESENTATION */
+
+hr {
+  width: 55px;
+  border: 0;
+  height: 1px;
+  margin: 5px 0;
+  background-color: #f7972e;
+}
+
+.tiramisu {
+  width: 75%;
+  display: block;
+}
+
+.description p {
+  width: 70%;
+  margin-top: 5px;
 }
