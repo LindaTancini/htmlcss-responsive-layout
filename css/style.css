@@ -12,6 +12,22 @@ body {
 }
 
 h1 {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
+  font-family: "Nerko One", cursive;
+}
+
+/* UTILITIES */
+
+body {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+
+/* HEADER */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #ff9614;
+  font-size: 40px;
 }
