@@ -20,14 +20,63 @@ h1 {
 body {
   padding: 20px;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-color: #f6f5f3;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.text-gray {
+  color: #99a5b3;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #4e3969;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+h3 {
+  padding: 15px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* HEADER */
+
+header {
+  background-color: #ffff;
+}
 
 h1 {
   display: flex;
   justify-content: center;
   color: #ff9614;
   font-size: 40px;
+}
+
+/* SECTION INFO */
+
+.traditional {
+  display: none;
+}
+
+.vid-tir {
+  width: 100%;
+  display: block;
+}
+
+.recipe {
+  background-color: #ffff;
 }
