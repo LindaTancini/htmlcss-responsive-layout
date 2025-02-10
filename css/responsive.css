@@ -11,10 +11,6 @@
     display: inline;
   }
 
-  .vid-tir {
-    width: 90%;
-  }
-
   .box-recipe {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +34,15 @@
   body {
     width: 1350px;
   }
+  .recipe {
+    display: flex;
+  }
+  .box-recipe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .social p {
     display: inline;
@@ -46,5 +51,13 @@
 
   .box-social {
     display: flex;
+  }
+
+  .fot-right {
+    display: block;
+  }
+
+  .fot-left ul {
+    justify-content: flex-end;
   }
 }
