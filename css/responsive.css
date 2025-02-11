@@ -1,10 +1,10 @@
 @media screen and (min-width: 768px) {
-  h1 {
-    justify-content: flex-start;
+  header {
+    text-align: left;
   }
 
-  body {
-    width: 900px;
+  main {
+    padding: 60px;
   }
 
   .traditional {
@@ -14,6 +14,10 @@
   .box-recipe {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .box-recipe li {
+    width: calc(100% / 3);
   }
 
   .box-social {
@@ -27,21 +31,26 @@
 
   .tiramisu {
     float: left;
+    margin: 0 15px 15px 0;
   }
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    width: 1350px;
-  }
-  .recipe {
+  .info {
     display: flex;
   }
+
+  .container-box-recipe {
+    width: 400px;
+    flex-shrink: 0;
+  }
+
   .box-recipe {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+  }
+
+  .box-recipe li {
+    width: 100%;
   }
 
   .social p {
@@ -53,11 +62,10 @@
     display: flex;
   }
 
-  .fot-right {
-    display: block;
-  }
-
-  .fot-left ul {
-    justify-content: flex-end;
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: initial;
   }
 }

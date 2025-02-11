@@ -6,25 +6,35 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
 }
 
-h1 {
-  font-family: "Nerko One", cursive;
+.nerko-one-regular {
+  font-family: "Nerko One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* UTILITIES */
 
 body {
-  padding: 20px;
-  margin: 0 auto;
   background-color: #f6f5f3;
 }
 
 main {
+  padding: 30px 25px;
   margin-top: 10px;
+}
+
+main .container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .text-gray {
@@ -32,13 +42,9 @@ main {
   margin-bottom: 10px;
 }
 
-.info h2 {
+.tiramisu-title {
   color: #4e3969;
   margin-bottom: 10px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 li {
@@ -57,13 +63,16 @@ h3 {
 
 header {
   background-color: #ffff;
+  padding: 25px;
+  text-align: center;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
+header a {
   color: #ff9614;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #ddd;
   font-size: 40px;
+  text-decoration: none;
 }
 
 /* SECTION INFO */
@@ -77,24 +86,23 @@ h1 {
   display: block;
 }
 
-.recipe {
+.container-box-recipe {
   background-color: #ffff;
 }
 
 /* SECTION SOCIAL  */
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
 
 .box-social {
   padding: 15px;
   border-radius: 50%;
   background-color: #ffff;
   box-shadow: 0 1px 3px 0 #ddd;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  margin: 30px 0;
 }
 
 .social p {
@@ -129,6 +137,11 @@ h1 {
 
 /* SECTION PRESENTATION */
 
+h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 hr {
   width: 55px;
   border: 0;
@@ -138,19 +151,14 @@ hr {
 }
 
 .tiramisu {
-  width: 75%;
+  width: 375px;
   display: block;
-}
-
-.description {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .description p {
-  width: 70%;
   margin-top: 5px;
+  line-height: 2;
 }
 
 /* FOOTER */
@@ -158,7 +166,8 @@ hr {
 footer {
   background-color: #7c69a4;
   color: #ffff;
-  margin-top: 25px;
+  padding: 30px 20px;
+  text-align: center;
 }
 
 a {
@@ -166,14 +175,13 @@ a {
 }
 
 .fot-right {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: normal;
 }
 
-.fot-left ul {
+.fot-left {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
